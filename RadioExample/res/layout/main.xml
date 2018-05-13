@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello"
+    />
+<RadioGroup android:id="@+id/rg1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <RadioButton android:id="@+id/c1" android:text="Red" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false"></RadioButton>
+    <RadioButton android:id="@+id/c2" android:text="Green" android:layout_width="wrap_content" android:layout_height="wrap_content"></RadioButton>
+    <RadioButton android:id="@+id/c3" android:text="Blue" android:layout_width="wrap_content" android:layout_height="wrap_content"></RadioButton>
+    <RadioButton android:id="@+id/c4" android:text="Yellow" android:layout_width="wrap_content" android:layout_height="wrap_content"></RadioButton>
+</RadioGroup>
+
+<RadioGroup android:id="@+id/rg2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal">
+    <RadioButton android:id="@+id/g1" android:text="Male" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false"></RadioButton>
+    <RadioButton android:id="@+id/g2" android:text="Female" android:layout_width="wrap_content" android:layout_height="wrap_content"></RadioButton>
+    <RadioButton android:id="@+id/g3" android:text="Other" android:layout_width="wrap_content" android:layout_height="wrap_content"></RadioButton>  
+</RadioGroup>
+<CheckBox android:text="Cricket" android:id="@+id/cb1" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+<CheckBox android:text="Football" android:id="@+id/cb2" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+<CheckBox android:text="Badminton" android:id="@+id/cb3" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+<CheckBox android:text="Hokey" android:id="@+id/cb4" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+<CheckBox android:text="Basketball" android:id="@+id/cb5" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+</LinearLayout>
